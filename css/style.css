@@ -83,11 +83,8 @@ img {
   display: flex;
   align-items: center;
 }
-.header_item {
-  position: relative;
-  color: #404bbf;
-}
-.header_item::after {
+
+.link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -144,6 +141,8 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  position: relative;
+  color: #404bbf;
 }
 
 .link:hover {
