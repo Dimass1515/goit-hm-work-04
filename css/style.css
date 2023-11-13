@@ -361,10 +361,10 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-}
-.network_item {
   width: 40px;
   height: 40px;
+}
+.network_item {
 }
 .network-links-link {
   width: 100%;
@@ -378,7 +378,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .network_link {
-  fill: #f4f4fd;
+  fill#f4f4fd;
 }
 .network-links-link:hover {
   background-color: #404bbf;
